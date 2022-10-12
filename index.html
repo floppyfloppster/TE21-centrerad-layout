@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TE21-centrerad-layout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
+<nav class="container">
 <a href="/" class="logo">
     logo
 </a>
@@ -16,11 +17,11 @@
     <li><a href="#">Om</a></li>
     <li><a href="#">Kontakt</a></li>
 </ul>
-</nav>  
+</nav class="container">  
 
-<main>
+<main class="container">
 <article>
-    <header>
+    <header class="hero">
         <img src="https://picsum.photos/1280/720" alt="Slumpbild">
         <h1>Första rubriken</h1>
     </header>
@@ -31,7 +32,7 @@
 </article>
 </main>
 
-<footer>
+<footer class="container">
     <p>Innehållet är mitt &copy; 2022</p>
 
 </footer>
